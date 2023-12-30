@@ -1,6 +1,6 @@
 # Aider GitHub Workflows Test
 
-This is a repository for testing GitHub Workflows on.
+This is a repository for testing [aider-github-workflows](https://github.com/mirrajabi/aider-github-workflows) on.
 
 Examples:
 
