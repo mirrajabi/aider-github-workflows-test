@@ -10,7 +10,6 @@ export class AiderGithubWorkflowsTestStack extends Stack {
 
     const queue = new sqs.Queue(this, 'AiderGithubWorkflowsTestQueue', {
       visibilityTimeout: Duration.seconds(100)
-      visibilityTimeout: Duration.seconds(100)
     });
 
     const topic = new sns.Topic(this, 'AiderGithubWorkflowsTestTopic');
